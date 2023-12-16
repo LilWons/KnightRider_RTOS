@@ -1,8 +1,6 @@
-//Course:  ENGI30000 Embedded Systems Applications - 1239_44758
-//Project #: 4
-//Project Title: Project 4_2023
-//Professor: MD - Nazrul  Islam Khan 
-//Submitted by: Richard Hart
+
+//Project: RTOS Salvo Project 
+//Submitted by: LilWons
 //Date of Submission: 2023-12-5
 
 //RTOS Project Template
