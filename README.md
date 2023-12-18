@@ -1,19 +1,19 @@
-**RTOS Knight Rider Program**
+# **RTOS Knight Rider Program**
 
 Program developed on MPLABxIDE for Explorer 16 Board.
 Microchip: PIC24FJ128GA010
 
 **Features**
 
-Displays a Knight Rider pattern on LED's D3 - D9.
+- Displays a Knight Rider pattern on LED's D3 - D9.
 
-Active low push button S3 changes Knight Rider's direction. 
+- Active low push button S3 changes Knight Rider's direction. 
 
-Toggle LED D10 every 3 seconds. 
+- Toggle LED D10 every 3 seconds. 
 
-Read potentiometer (R6) and Temperature (U4) analog values and displaying value in terminal through UART interface.
+- Read potentiometer (R6) and Temperature (U4) analog values and displaying value in terminal through UART interface.
 
-**Calculations (Current/voltage/resistance/Time/Frequency/ etc.,):**
+## **Calculations (Current/voltage/resistance/Time/Frequency/ etc):**
 
 **ADC Resolution**
 
@@ -22,10 +22,13 @@ Resolution = Vref / (2^n - 1) = 3.3V / (2^10 - 1) = 3.23mV
 **Digital Value to Voltage Value** 
 
 V(R6) = ADC Value * ADC Resolution
-Digital Value to Celsius: 
+
+**Digital Value to Celsius**
+
 Temp Celsius = ((ADC Value * ADC resolution) - 0.5) / 0.01  
 
 **Resistance**
+
 R34 – R42 = 470 ohms (for each resistor). 
 R33 = 10k
 Voltage:
